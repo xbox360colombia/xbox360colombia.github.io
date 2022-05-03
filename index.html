@@ -1,68 +1,85 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
+  <head>
     <!-- Etiquetas <meta> obligatorias para Bootstrap -->
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
     <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
     <!-- Enlazando el CSS de Bootstrap -->
     <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-            crossorigin="anonymous"
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
     />
 
     <title>xbox360colombia GITHUB</title>
-</head>
+  </head>
 
-<body>
-<div class="jumbotron text-center">
-    <h1>TITULO DE CABECERA SITIO WEB</h1>
-    <p>En esta sección puedo aagregar una característica del sitio</p>
-</div>
-
-<div class="container">
-    <div class="row">
-        <div class="col-sm-4">
-            <h3>UTILIDADES</h3>
-            <ul>
-                <li>Instalar en VSCODE la extensión LIVE SERVER</li>
-                <li>Instalar en VSCODE la extensión PRETTIER</li>
-            </ul>
-        </div>
-        <div class="col-sm-4">
-            <h3>EXTENSIÓN PRETTIER</h3>
-            <ul>
-                <li>Cierra las Etiquetas automáticamente</li>
-                <li>Indentará el código</li>
-            </ul>
-        </div>
-        <div class="col-sm-4">
-            <h3>Column 3</h3>
-            <p>Lorem ipsum dolor..</p>
-        </div>
+  <body>
+    <div class="jumbotron text-center">
+      <h1>TITULO DE CABECERA SITIO WEB</h1>
+      <p>En esta sección puedo agregar una característica del sitio</p>
     </div>
-</div>
 
-<!-- Enlazando el JavaScript de Bootstrap -->
-<script
-        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"
-></script>
-<script
-        src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"
-></script>
-<script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"
-></script>
-</body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <h3>UTILIDADES</h3>
+          <ul>
+            <li>Instalar en VSCODE la extensión LIVE SERVER</li>
+            <li>Instalar en VSCODE la extensión PRETTIER</li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <h3>EXTENSIÓN PRETTIER</h3>
+          <ul>
+            <li>Cierra las Etiquetas automáticamente</li>
+            <li>Indentará el código</li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <h3>Column 3</h3>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="row">
+          <div class="card">
+            
+            <div class="card-body">
+              <h5 class="card-title">Ejercicios Javascript</h5>
+              <p class="card-text">Realizar la suma y resta de dos numeros y mostrar el resultado por medio de Javascript</p>
+              <div class="mt-2"><input type="number" id="A" placeholder="Ingrese el número A"></div>
+              <div class="mt-2"><input type="number" id="B" placeholder="Ingrese el número B"></div>
+              <div> <h3 id="resultado">0</span></h3>
+              
+              <a href="#" id="botonsumar" class="btn btn-primary mt-2" onclick="leerdatos('suma')">Sumar</a>
+              <a href="#" id="botonrestar" class="btn btn-success mt-2" onclick="leerdatos('resta')">Restar</a>
+            </div>
+      </div>
+    </div>
+
+    <!-- Enlazando el JavaScript de Bootstrap -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js" type="text/javascript"></script>
+
+
+  </body>
 </html>
